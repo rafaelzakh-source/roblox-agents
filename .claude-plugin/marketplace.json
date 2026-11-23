@@ -1,6 +1,11 @@
 {
   "name": "roblox-agents",
-  "owner": { "name": "rafaelzakh-source" },
+  "owner": {
+    "name": "rafaelzakh-source"
+  },
+  "metadata": {
+    "description": "ИИ-агенты Claude Code для разработки игр на Roblox"
+  },
   "plugins": [
     {
       "name": "roblox-team",
