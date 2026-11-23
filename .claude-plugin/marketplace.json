@@ -1,0 +1,11 @@
+{
+  "name": "roblox-agents",
+  "owner": { "name": "rafaelzakh-source" },
+  "plugins": [
+    {
+      "name": "roblox-team",
+      "source": "./plugins/roblox-team",
+      "description": "Команда агентов для Roblox-игр: аналитик, геймдизайнер, разработчик, ревьюер, тестировщик и доводчик."
+    }
+  ]
+}
