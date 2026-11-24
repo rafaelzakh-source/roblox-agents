@@ -15,7 +15,7 @@ description: Порядок работы команды Roblox-агентов (l
 ## Конвейер для новой фичи
 1. **roblox-lorekeeper** - что уже известно о фиче из заметок.
 2. **roblox-analyst** - как сейчас устроен затронутый код.
-3. **roblox-designer** - если фича новая или неясная: дизайн-док в `docs/design/` и план задач. Показать автору и дождаться «ок». Числа - через **roblox-economy-balancer**.
+3. **roblox-designer** - если фича новая или неясная: дизайн-док в `docs/design/` и план задач. Показать автору и дождаться «ок». Числа - через **roblox-economy-balancer**, удержание и монетизация - через **roblox-engagement-designer**.
 4. Исполнители по плану, по одной задаче:
    - код - **roblox-builder**;
    - экраны и кнопки - **roblox-ui-designer**;
@@ -37,6 +37,7 @@ description: Порядок работы команды Roblox-агентов (l
 - «Сделай интерфейс» → lorekeeper → **roblox-ui-designer** → reviewer.
 - «Построй карту / уровень» → lorekeeper → **roblox-level-builder** → tester.
 - «Баланс / цены / слишком легко» → lorekeeper → **roblox-economy-balancer**.
+- «Игроки уходят / мало возвращаются / мало покупают» → lorekeeper → **roblox-engagement-designer** → designer/economy-balancer → исполнители.
 - «Сделай красивее / сочнее» → **roblox-vfx-sound** и/или **roblox-polisher** → reviewer.
 - «Публикуем / обновление» → **roblox-publisher** (+ скилл `publish-check`) → исправления по блокерам → publisher ещё раз.
 
